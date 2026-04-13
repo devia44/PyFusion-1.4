@@ -84,6 +84,9 @@ The Kit adds advanced features:
 
 ## ⌨️ Hotkeys
 
+<img width="777" height="634" alt="image" src="https://github.com/user-attachments/assets/576e95cf-50bb-41d3-8ac6-5d41bf6a07cf" />
+
+
 | Key | Action |
 |-----|--------|
 | `Ctrl+N` | New file |
