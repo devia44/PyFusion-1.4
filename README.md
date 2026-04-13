@@ -38,6 +38,26 @@ PyFusion has a built-in plugin system. Plugins use `.pfp` extension and can add:
 
 ---
 
+## 🔌 Creating Plugins
+
+1. Create `manifest.json` and `main.py`
+2. Run `build.py` to create `.pfp` file
+3. Install via Plugin Installer
+
+**Minimal plugin:**
+```python
+class MyPlugin:
+    def __init__(self, app):
+        self.app = app
+    
+    def get_menu_items(self):
+        return [{"label": "Hello", "command": self.say_hello}]
+    
+    def say_hello(self):
+        print("Hello from plugin!")
+```
+---
+
 ## 📦 PyFusion Kit (Extended)
 
 The Kit adds advanced features:
@@ -71,26 +91,6 @@ The Kit adds advanced features:
 | `Ctrl+X/C/V` | Cut/Copy/Paste |
 | `Ctrl+,` | Settings |
 
----
-
-## 🔌 Creating Plugins
-
-1. Create `manifest.json` and `main.py`
-2. Run `build.py` to create `.pfp` file
-3. Install via Plugin Installer
-
-**Minimal plugin:**
-```python
-class MyPlugin:
-    def __init__(self, app):
-        self.app = app
-    
-    def get_menu_items(self):
-        return [{"label": "Hello", "command": self.say_hello}]
-    
-    def say_hello(self):
-        print("Hello from plugin!")
-```
 
 ---
 
