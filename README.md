@@ -386,8 +386,8 @@ That's what open source is about.
 
 ## 🔗 Links
 
-- **Source code:** [GitHub](https://github.com/yourusername/PyFusion)
-- **Report issues:** [Issues](https://github.com/yourusername/PyFusion/issues)
+- **Source code:** [GitHub](https://github.com/devia44/PyFusion)
+- **Report issues:** [Issues](https://github.com/devia44/PyFusion/issues)
 - **Plugin examples:** `/plugins/examples/`
 
 ---
