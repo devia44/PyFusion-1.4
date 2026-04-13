@@ -1,0 +1,10 @@
+{
+    "id": "plugin_creator",
+    "name": "Plugin Creator",
+    "version": "1.2",
+    "description": "Create custom plugins for PyFusion",
+    "author": "PyFusion Team",
+    "entry": "main.py",
+    "class": "PluginCreator",
+    "requires_license": false
+}
