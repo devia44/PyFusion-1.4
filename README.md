@@ -71,9 +71,9 @@ PyFusion is a **one-person project**. I built it because I needed a tool that do
 ### Option 1: Run from source (recommended for developers)
 
 ```bash
-git clone https://github.com/yourusername/PyFusion.git
+git clone https://github.com/devia44/PyFusion-1.4.git
 cd PyFusion
-python app.pyw
+python run.pyw
 ```
 
 ### Option 2: Standalone EXE
