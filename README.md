@@ -72,7 +72,7 @@ PyFusion is a **one-person project**. I built it because I needed a tool that do
 
 ```bash
 git clone https://github.com/devia44/PyFusion-1.4.git
-cd PyFusion
+cd PyFusion-1.4
 python run.pyw
 ```
 
