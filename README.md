@@ -1,6 +1,7 @@
 # 🔧 PyFusion
 
-**PyFusion** is a universal "Swiss Army knife" for software developers. A powerful environment with plugins, code editor, and a set of tools for everyday tasks.
+**PyFusion** is a fast GUI toolbox for everyday developer tasks.
+Create files, convert formats, and automate actions in seconds - all in one place, with plugin support.
 
 ---
 
