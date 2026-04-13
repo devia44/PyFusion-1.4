@@ -31,8 +31,12 @@ PyFusion has a built-in plugin system. Plugins use `.pfp` extension and can add:
 {
     "id": "my_plugin",
     "name": "My Plugin",
+    "version": "1.0.0",
+    "description": "Description of your plugin",
+    "author": "Your Name",
     "entry": "main.py",
-    "class": "MyPlugin"
+    "class": "MyPlugin",
+    "requires_license": false
 }
 ```
 
